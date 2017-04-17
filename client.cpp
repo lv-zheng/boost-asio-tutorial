@@ -22,5 +22,4 @@ int main(int argc, char* argv[])
 			boost::asio::buffer(input_buffer), error);
 	std::cout << std::string(input_buffer.data(), input_buffer.data() + rsize) << std::endl;
 	return 0;
-	
 }
